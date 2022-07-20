@@ -1,0 +1,8 @@
+type Query {
+	ssm_parameter: String!
+	secret: String!
+}
+
+schema {
+	query: Query
+}
